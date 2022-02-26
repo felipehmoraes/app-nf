@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
  @Entity
    @Table(name = "tb_pessoa")
- @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+ @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Pessoa {
 
    @Id
