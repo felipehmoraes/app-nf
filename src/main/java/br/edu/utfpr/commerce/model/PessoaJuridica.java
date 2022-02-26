@@ -1,5 +1,8 @@
 package br.edu.utfpr.commerce.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class PessoaJuridica extends Pessoa {
     private String cnpj;
     private String inscricaoEstadual;

@@ -1,5 +1,8 @@
 package br.edu.utfpr.commerce.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class PessoaFisica extends Pessoa {
     private String cpf;
     private String rg;
